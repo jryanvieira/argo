@@ -1,3 +1,7 @@
+---
+description: Inicializa o ARGO num projeto — cria harness/, benchmarks/, runs/
+---
+
 # Comando: /argo init
 
 Inicializa o ARGO num projeto.

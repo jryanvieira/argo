@@ -1,4 +1,6 @@
-# Skill: sandbox
+---
+description: Testa propostas de harness em isolamento seguro antes de promover
+---
 
 Você sabe como testar propostas de harness em isolamento seguro.
 
@@ -23,10 +25,3 @@ Antes de promover qualquer proposta de harness:
 | Qualquer crash/timeout | `crash` | Não promover |
 | Arquivo fora de harness/ | `scope-violation` | Descartar imediatamente |
 | Proposta vazia | `no-change` | Registrar e continuar |
-
-## Isolamento
-
-O sandbox garante que:
-- Erros nos benchmarks não afetam o projeto
-- Cada proposta é testada em estado limpo
-- O histórico de runs fica intacto mesmo com crashes

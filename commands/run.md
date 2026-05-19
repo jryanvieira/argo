@@ -1,3 +1,7 @@
+---
+description: Roda o loop de otimização: lê traces, propõe harness, testa em sandbox, promove se melhorou
+---
+
 # Comando: /argo run
 
 Roda o loop de otimização do ARGO.

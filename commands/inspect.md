@@ -1,3 +1,7 @@
+---
+description: Inspeciona histórico de runs — tabela geral ou diff completo de um run específico
+---
+
 # Comando: /argo inspect
 
 Inspeciona o histórico de runs do ARGO.

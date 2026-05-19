@@ -1,4 +1,6 @@
-# Skill: optimizer
+---
+description: Orquestra o loop completo de otimização do ARGO — lê traces, propõe, testa, promove
+---
 
 Você sabe como orquestrar o loop completo de otimização do ARGO.
 
@@ -19,7 +21,7 @@ Para cada iteração (até budget):
 ## Como executar
 
 ```bash
-# Via CLI diretamente
+# Via CLI
 python core/optimizer.py --project /caminho/projeto --budget 3
 
 # Com aprovação humana
@@ -35,8 +37,6 @@ O Python prepara o contexto e aguarda. O Claude Code:
 1. Lê `.argo/context.md`
 2. Usa a skill `proposer` para gerar `.argo/proposed_harness/`
 3. Sinaliza: `touch .argo/proposal_ready`
-
-O Python detecta o sinal e retoma o loop.
 
 ## Invariantes
 

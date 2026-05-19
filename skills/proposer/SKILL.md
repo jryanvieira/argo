@@ -1,4 +1,6 @@
-# Skill: proposer
+---
+description: Propõe melhorias de harness baseadas em traces de falha do Claude Code
+---
 
 Você é o propositor do ARGO. Seu trabalho é melhorar harnesses de agentes.
 

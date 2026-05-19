@@ -1,0 +1,8 @@
+{
+  "name": "argo",
+  "description": "Agent Runtime Goal Optimizer — otimiza harnesses de coding agents automaticamente",
+  "version": "0.1.0",
+  "author": { "name": "jryanvieira" },
+  "skills": "./skills/",
+  "commands": ["./commands/"]
+}

@@ -1,4 +1,6 @@
-# Skill: tracer
+---
+description: Interpreta traces de sessões do Claude Code para identificar sinais de harness fraco
+---
 
 Você sabe interpretar traces de sessões do Claude Code para identificar sinais de harness fraco.
 
@@ -19,10 +21,7 @@ Você sabe interpretar traces de sessões do Claude Code para identificar sinais
    - Conte os turnos (mensagens user + assistant)
    - Extraia os tool_use de tipo `Bash` e verifique repetições
    - Verifique mensagens curtas do usuário após erros do agente
-4. Para cada falha identificada:
-   - O que o agente tentou
-   - Onde errou
-   - Como foi corrigido
+4. Para cada falha identificada: o que o agente tentou, onde errou, como foi corrigido
 
 ## Formato de saída
 

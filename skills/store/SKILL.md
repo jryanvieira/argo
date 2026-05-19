@@ -1,4 +1,6 @@
-# Skill: store
+---
+description: Salva e carrega runs do filesystem do ARGO em runs/run_NNN/
+---
 
 Você sabe como salvar e carregar runs do filesystem do ARGO.
 
@@ -26,27 +28,6 @@ runs/run_001/
 | `timeout` | Propositor não respondeu a tempo |
 | `no-change` | Propositor não encontrou o que mudar |
 | `scope-violation` | Proposta tentou modificar arquivos fora de harness/ |
-
-## Como usar via Python
-
-```python
-from core.store import Store, RunResult
-
-store = Store("/caminho/do/projeto")
-
-# Carregar histórico
-runs = store.carregar_runs()
-
-# Melhor score atual (apenas runs com status 'keep')
-melhor = store.melhor_score_atual()
-
-# Próximo ID disponível
-run_id = store.proximo_run_id()
-
-# Salvar run
-resultado = RunResult(score=0.85, status="keep")
-store.salvar_run(run_id=run_id, resultado=resultado, diff="...", reasoning="...")
-```
 
 ## Convenções
 

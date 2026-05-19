@@ -1,3 +1,7 @@
+---
+description: Wizard interativo para criar um benchmark a partir de uma falha real observada
+---
+
 # Comando: /argo benchmark add
 
 Wizard interativo para criar um novo benchmark.

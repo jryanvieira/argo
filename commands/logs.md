@@ -1,3 +1,7 @@
+---
+description: Analisa traces de sessões recentes e lista padrões de harness fraco
+---
+
 # Comando: /argo logs
 
 Analisa traces de sessões recentes e lista padrões de falha.
