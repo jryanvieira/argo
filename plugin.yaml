@@ -1,0 +1,33 @@
+name: argo
+version: 0.1.0
+description: "Agent Runtime Goal Optimizer — otimiza harnesses de coding agents automaticamente"
+author: seu-user
+
+commands:
+  - name: init
+    description: "Inicializa ARGO num projeto"
+    file: commands/init.md
+  - name: run
+    description: "Roda o loop de otimização"
+    file: commands/run.md
+  - name: inspect
+    description: "Inspeciona histórico de runs"
+    file: commands/inspect.md
+  - name: logs
+    description: "Analisa traces e lista padrões de falha"
+    file: commands/logs.md
+  - name: benchmark
+    description: "Gerencia benchmarks do projeto"
+    file: commands/benchmark.md
+
+skills:
+  - name: optimizer
+    file: skills/optimizer.md
+  - name: tracer
+    file: skills/tracer.md
+  - name: sandbox
+    file: skills/sandbox.md
+  - name: store
+    file: skills/store.md
+  - name: proposer
+    file: skills/proposer.md
