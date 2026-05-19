@@ -13,13 +13,16 @@ Zero API key. Zero pip install obrigatório. Funciona como plugin do Claude Code
 ## Quickstart
 
 ```bash
-# 1. instala o plugin
-/plugin add github.com/seu-user/argo
+# 1. registra o repositório como marketplace
+/plugin marketplace add jryanvieira/argo
 
-# 2. inicializa num projeto
+# 2. instala o plugin
+/plugin install argo@argo
+
+# 3. inicializa num projeto
 /argo init
 
-# 3. roda o loop de otimização
+# 4. roda o loop de otimização
 /argo run --budget 3
 ```
 
