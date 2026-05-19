@@ -1,8 +1,15 @@
 {
   "name": "argo",
-  "description": "Agent Runtime Goal Optimizer — otimiza harnesses de coding agents automaticamente",
+  "displayName": "ARGO",
   "version": "0.1.0",
-  "author": { "name": "jryanvieira" },
+  "description": "Agent Runtime Goal Optimizer — otimiza harnesses de coding agents automaticamente",
+  "author": {
+    "name": "jryanvieira",
+    "url": "https://github.com/jryanvieira"
+  },
+  "repository": "https://github.com/jryanvieira/argo",
+  "license": "Apache-2.0",
+  "keywords": ["harness", "optimization", "agent", "claude-code"],
   "skills": "./skills/",
   "commands": ["./commands/"]
 }

@@ -1,0 +1,14 @@
+{
+  "name": "argo",
+  "owner": { "name": "jryanvieira" },
+  "description": "Agent Runtime Goal Optimizer — otimiza harnesses de coding agents automaticamente",
+  "plugins": [
+    {
+      "name": "argo",
+      "displayName": "ARGO",
+      "description": "Otimiza harnesses de coding agents automaticamente via loop filesystem + Claude Code",
+      "version": "0.1.0",
+      "source": "./"
+    }
+  ]
+}
